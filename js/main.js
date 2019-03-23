@@ -1,2 +1,0 @@
-// # START EDITING YOUR JAVASCRIPT HERE
-// ===============
