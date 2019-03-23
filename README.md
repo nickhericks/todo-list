@@ -1,4 +1,4 @@
-# Popover
+# Todo list
 > This project shows how to build a todo list component.
 
 ## View project
