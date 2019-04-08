@@ -1,26 +1,5 @@
 const tasklist = document.querySelector('.tasklist');
 const newTaskForm = tasklist.querySelector('form');
-const rootendpoint = 'http://api.learnjavascript.today/tasklist';
-
-zlFetch(`${rootendpoint}/users`, {
-	method: 'post',
-	body: {
-		username: 'nickhericks'
-	}
-})
-
-zlFetch(`http://api.learnjavascript.today/tasklist/users/:nickhericks/tasks`)
-	.then(response => console.log(response))
-	.catch(error => console.log(error))
-
-
-
-
-
-
-
-
-
 
 
 const generateUnique = length =>
