@@ -2,14 +2,14 @@ const tasklist = document.querySelector('.tasklist');
 const newTaskForm = tasklist.querySelector('form');
 const rootendpoint = 'http://api.learnjavascript.today/tasklist';
 
-fetch(`${rootendpoint}/users`, {
+zlFetch(`${rootendpoint}/users`, {
 	method: 'post',
 	body: {
-		username: 'zellwk'
+		username: 'nickhericks'
 	}
 })
 
-fetch(`http://api.learnjavascript.today/tasklist/users/:nickhericks/tasks`)
+zlFetch(`http://api.learnjavascript.today/tasklist/users/:nickhericks/tasks`)
 	.then(response => console.log(response))
 	.catch(error => console.log(error))
 
