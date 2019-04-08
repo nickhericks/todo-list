@@ -1,5 +1,26 @@
 const tasklist = document.querySelector('.tasklist');
 const newTaskForm = tasklist.querySelector('form');
+const rootendpoint = 'http://api.learnjavascript.today/tasklist';
+
+fetch(`${rootendpoint}/users`, {
+	method: 'post',
+	body: {
+		username: 'zellwk'
+	}
+})
+
+fetch(`http://api.learnjavascript.today/tasklist/users/:nickhericks/tasks`)
+	.then(response => console.log(response))
+	.catch(error => console.log(error))
+
+
+
+
+
+
+
+
+
 
 
 const generateUnique = length =>

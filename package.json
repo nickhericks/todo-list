@@ -1,0 +1,22 @@
+{
+  "name": "todo-list",
+  "version": "1.0.0",
+  "description": "> This project shows how to build a todo list component.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickhericks/todo-list.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nickhericks/todo-list/issues"
+  },
+  "homepage": "https://github.com/nickhericks/todo-list#readme",
+  "dependencies": {
+    "zl-fetch": "^2.2.1"
+  }
+}
